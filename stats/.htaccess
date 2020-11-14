@@ -1,7 +1,0 @@
-AuthName "mysticgaming.tk statistics"
-AuthType Basic
-AuthUserFile /home/mysticgaming/.stats-htpasswd
-require valid-user
-<Files .stats-htpasswd>
-deny from all
-</Files>
